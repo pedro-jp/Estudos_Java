@@ -15,7 +15,17 @@ public class Main {
 
         ArrayList<String> lista = new ArrayList<>();
         lista.add("João");
-        System.out.println(lista.get(0));
+        lista.add("Pedro");
+        lista.add("João");
+//        for (String s : lista) System.out.println(s);
+
+        for(int i = 0; i < lista.size(); i++) {
+            System.out.println(lista.get(i));
+        }
+
+        for(String nome : lista) {
+            System.out.println(nome);
+        }
 
     }
 }
